@@ -62,7 +62,7 @@ export default {
 <style>
 .list {
   margin: 0 10px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   position: relative;
   min-width: 320px;
   width: 320px;

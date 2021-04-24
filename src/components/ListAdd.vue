@@ -1,6 +1,6 @@
 <template>
   <form :class="classList" @submit.prevent="addList">
-    <div class="input-a">
+    <div class="list-input">
       <input
         v-model="title"
         required
@@ -71,6 +71,9 @@ export default {
 </script>
 
 <style>
+.list-input{
+  margin-right: 60px;
+}
 .list-text-input {
   padding: 25px 15px;
   width: 320px;
